@@ -11,13 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-@font-face {
-  font-family: "Karla";
-  src: local ("Karla"), url(./fonts/Karla-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Questrial";
-  src: local ("Questrial"),
-    url(./fonts/Questrial-Regular.ttf) format("truetype");
-}
