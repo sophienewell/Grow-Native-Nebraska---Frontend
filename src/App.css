@@ -28,7 +28,6 @@
 
 .bg-green {
   background: var(--green);
-  z-index: 10;
 }
 
 .bg-violet {
@@ -103,8 +102,8 @@
 }
 
 .flex-item-box {
-  flex: 0 1 8rem;
-  height: 20rem;
+  flex: 0 1 10rem;
+  height: 23rem;
   border: 5px solid white;
 }
 
@@ -154,20 +153,10 @@
   z-index: 2;
   position: absolute;
   right: 0;
+  border-radius: 0 3px;
+  transition: top 200ms ease-out;
 }
-
-@keyframes dropdown {
-  from {
-    top: -100px;
-  }
-  to {
-    top: 55px;
-  }
-}
-
 .drop-content.show {
-  animation-name: dropdown;
-  animation-duration: 1.5s;
   top: 55px;
 }
 .drop-content.hide {
@@ -212,11 +201,6 @@
   grid-template-rows: repeat(12, 1fr);
   position: relative;
   margin-bottom: 2rem;
-}
-
-img {
-  display: block;
-  width: 100%;
 }
 
 .grid__item--pink {
@@ -287,6 +271,24 @@ img {
   top: 2rem;
 }
 
+.flower-photo {
+  border-radius: 50%;
+}
+
+.info-box {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.info-line {
+  min-height: 1.5rem;
+  display: flex;
+}
+.char-title {
+  font-weight: bold;
+  flex-basis: 40%;
+}
+
 button {
   height: 2rem;
   border-radius: 0.5rem;
@@ -302,4 +304,14 @@ button:hover {
 input {
   height: 1.5rem;
   min-width: 20rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+nav {
+  position: relative;
+  z-index: 10;
 }

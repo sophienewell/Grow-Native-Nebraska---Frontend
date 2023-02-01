@@ -1,3 +1,5 @@
+import wildstrawberry from "./images/plantPhotos/wildstrawberry.png";
+
 export default [
   //Full sun, wet soil
   {
@@ -7,6 +9,7 @@ export default [
     height: "Ground cover",
     sun: ["Full sun", "Partial sun", "Full shade"],
     soiltype: ["Wet", "Medium", "Dry"],
+    photo: "wildstrawberry",
   },
   {
     name: "Golden Alexanders",
@@ -15,6 +18,7 @@ export default [
     height: "Short",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet", "Medium"],
+    photo: "goldenalexanders",
   },
   {
     name: "Blue Wild Indigo",
@@ -23,6 +27,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet", "Medium"],
+    photo: "bluewildindigo",
   },
   {
     name: "Early Sunflower",
@@ -31,6 +36,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet"],
+    photo: "earlysunflower",
   },
   {
     name: "Swamp Milkweed",
@@ -39,6 +45,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet"],
+    photo: "swampmilkweed",
   },
   {
     name: "Purple Coneflower",
@@ -47,6 +54,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet", "Medium"],
+    photo: "purpleconeflower",
   },
   {
     name: "Wild Bergamot",
@@ -55,6 +63,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet", "Medium", "Dry"],
+    photo: "wildbergamot",
   },
   {
     name: "Blue Vervain",
@@ -63,6 +72,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet", "Medium"],
+    photo: "bluevervain",
   },
   {
     name: "Common Ironweed",
@@ -71,6 +81,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet", "Medium"],
+    photo: "commonironweed",
   },
   {
     name: "Prairie Blazing Star",
@@ -79,6 +90,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet", "Medium"],
+    photo: "prairieblazingstar",
   },
   {
     name: "Rose Mallow",
@@ -87,6 +99,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet"],
+    photo: "rosemallow",
   },
   {
     name: "Cardinal Flower",
@@ -95,6 +108,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet"],
+    photo: "cardinalflower",
   },
   {
     name: "Joe Pye Weed",
@@ -103,6 +117,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet"],
+    photo: "joepyeweed",
   },
   {
     name: "Stiff Goldenrod",
@@ -111,6 +126,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet"],
+    photo: "stiffgoldenrod",
   },
   {
     name: "Sneezeweed",
@@ -119,6 +135,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet"],
+    photo: "sneezeweed",
   },
   {
     name: "New England Aster",
@@ -127,6 +144,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Wet", "Medium"],
+    photo: "newenglandaster",
   },
   //Full sun, medium soil
   {
@@ -136,6 +154,7 @@ export default [
     height: "Short",
     sun: ["Full sun"],
     soiltype: ["Medium"],
+    photo: "prairiephlox",
   },
   {
     name: "Ozark Bluestar",
@@ -144,6 +163,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Medium"],
+    photo: "ozarkbluestar",
   },
   {
     name: "Foxglove Beardtongue",
@@ -152,6 +172,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Medium"],
+    photo: "foxglovebeardtongue",
   },
   {
     name: "Showy Milkweed",
@@ -160,6 +181,7 @@ export default [
     height: "Medium",
     sun: ["Full sun"],
     soiltype: ["Medium", "Dry"],
+    photo: "showymilkweed",
   },
   {
     name: "Whorled Milkweed",
@@ -168,6 +190,7 @@ export default [
     height: "Short",
     sun: ["Full sun"],
     soiltype: ["Medium", "Dry"],
+    photo: "whorledmilkweed",
   },
   {
     name: "Butterfly Milkweed",
@@ -176,6 +199,7 @@ export default [
     height: "Short",
     sun: ["Full sun"],
     soiltype: ["Medium", "Dry"],
+    photo: "butterflymilkweed",
   },
   {
     name: "Anise Hyssop",
@@ -184,6 +208,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Medium"],
+    photo: "anisehyssop",
   },
   {
     name: "Purple Prairie Clover",
@@ -192,6 +217,7 @@ export default [
     height: "Short",
     sun: ["Full sun"],
     soiltype: ["Medium", "Dry"],
+    photo: "purpleprairieclover",
   },
   {
     name: "Tall Coreopsis",
@@ -200,6 +226,7 @@ export default [
     height: "Tall",
     sun: ["Full sun"],
     soiltype: ["Medium"],
+    photo: "tallcoreopsis",
   },
   {
     name: "Purple Giant Hyssop",
@@ -208,6 +235,7 @@ export default [
     height: "Tall",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Medium"],
+    photo: "purplegianthyssop",
   },
   {
     name: "Wild Petunia",
@@ -216,6 +244,7 @@ export default [
     height: "Short",
     sun: ["Full sun"],
     soiltype: ["Medium", "Dry"],
+    photo: "wildpetunia",
   },
   {
     name: "Gray Headed Coneflower",
@@ -224,6 +253,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Medium"],
+    photo: "grayheadedconeflower",
   },
   {
     name: "Pitcher Sage",
@@ -232,6 +262,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial sun"],
     soiltype: ["Medium", "Dry"],
+    photo: "pitchersage",
   },
   {
     name: "Showy Goldenrod",
@@ -240,6 +271,7 @@ export default [
     height: "Medium",
     sun: ["Full sun"],
     soiltype: ["Medium", "Dry"],
+    photo: "showygoldenrod",
   },
   {
     name: "Brown Eyed Susan",
@@ -248,6 +280,7 @@ export default [
     height: "Medium",
     sun: ["Full sun"],
     soiltype: ["Medium"],
+    photo: "browneyedsusan",
   },
 
   //Full sun, dry soil
@@ -258,6 +291,7 @@ export default [
     height: "Ground cover",
     sun: ["Full sun", "Partial Sun"],
     soiltype: ["Dry"],
+    photo: "prairiepussytoes",
   },
   {
     name: "White Wild Indigo",
@@ -266,6 +300,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial Sun"],
     soiltype: ["Dry"],
+    photo: "whitewildindigo",
   },
   {
     name: "Large-flowered Beardtongue",
@@ -274,6 +309,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial Sun"],
     soiltype: ["Dry"],
+    photo: "largefloweredbeardtongue",
   },
   {
     name: "Lance-leaf Coreopsis",
@@ -282,6 +318,7 @@ export default [
     height: "Medium",
     sun: ["Full sun"],
     soiltype: ["Dry"],
+    photo: "lanceleafcoreopsis",
   },
   {
     name: "Pale Purple Coneflower",
@@ -290,6 +327,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial Sun"],
     soiltype: ["Dry"],
+    photo: "palepurpleconeflower",
   },
   {
     name: "Purple Poppy Mallow",
@@ -298,6 +336,7 @@ export default [
     height: "Grounc cover",
     sun: ["Full sun"],
     soiltype: ["Dry"],
+    photo: "purplepoppymallow",
   },
   {
     name: "Button Blazing Star",
@@ -306,6 +345,7 @@ export default [
     height: "Medium",
     sun: ["Full sun", "Partial Sun"],
     soiltype: ["Dry"],
+    photo: "buttonblazingstar",
   },
   {
     name: "Hoary Vervain",
@@ -314,6 +354,7 @@ export default [
     height: "Short",
     sun: ["Full sun", "Partial Sun"],
     soiltype: ["Dry"],
+    photo: "hoaryvervain",
   },
   {
     name: "Aromatic Aster",
@@ -322,6 +363,7 @@ export default [
     height: "Medium",
     sun: ["Full sun"],
     soiltype: ["Dry"],
+    photo: "aromaticaster",
   },
   {
     name: "Showy Sunflower",
@@ -330,6 +372,7 @@ export default [
     height: "Tall",
     sun: ["Full sun"],
     soiltype: ["Dry"],
+    photo: "showysunflower",
   },
   //Partial sun, Wet soil
   {
@@ -339,6 +382,7 @@ export default [
     height: "Medium",
     sun: ["Partial sun", "Full shade"],
     soiltype: ["Wet", "Medium", "Dry"],
+    photo: "calicoaster",
   },
   {
     name: "Tall Bellflower",
@@ -347,6 +391,7 @@ export default [
     height: "Medium",
     sun: ["Partial sun", "Full shade"],
     soiltype: ["Wet", "Medium"],
+    photo: "tallbellflower",
   },
   {
     name: "Blue Mistflower",
@@ -355,6 +400,7 @@ export default [
     height: "Short",
     sun: ["Partial sun"],
     soiltype: ["Wet"],
+    photo: "bluemistflower",
   },
   //Partial sun, Medium soil
   {
@@ -364,6 +410,7 @@ export default [
     height: "Short",
     sun: ["Partial sun", "Full shade"],
     soiltype: ["Medium", "Dry"],
+    photo: "wildgeranium",
   },
   {
     name: "Common Milkweed",
@@ -372,6 +419,7 @@ export default [
     height: "Medium",
     sun: ["Partial sun"],
     soiltype: ["Medium", "Dry"],
+    photo: "commonmilkweed",
   },
   {
     name: "Smooth Wild Petunia",
@@ -380,6 +428,7 @@ export default [
     height: "Short",
     sun: ["Partial sun", "Full shade"],
     soiltype: ["Medium"],
+    photo: "smoothwildpetunia",
   },
   {
     name: "Wild Blue Phlox",
@@ -388,6 +437,7 @@ export default [
     height: "Short",
     sun: ["Partial sun", "Full shade"],
     soiltype: ["Medium", "Dry"],
+    photo: "wildbluephlox",
   },
   {
     name: "Zig Zag Goldenrod",
@@ -396,6 +446,7 @@ export default [
     height: "Short",
     sun: ["Partial sun", "Full shade"],
     soiltype: ["Medium", "Dry"],
+    photo: "zigzaggoldenrod",
   },
   {
     name: "Drummond's Aster",
@@ -404,6 +455,7 @@ export default [
     height: "Medium",
     sun: ["Partial sun", "Full shade"],
     soiltype: ["Medium", "Dry", "Wet"],
+    photo: "drummondsaster",
   },
   {
     name: "Great Blue Lobelia",
@@ -412,6 +464,7 @@ export default [
     height: "Medium",
     sun: ["Partial sun"],
     soiltype: ["Medium"],
+    photo: "greatbluelobelia",
   },
   //Partial sun, Dry soil
   {
@@ -421,6 +474,7 @@ export default [
     height: "Medium",
     sun: ["Partial sun", "Full shade"],
     soiltype: ["Dry", "Medium"],
+    photo: "columbine",
   },
   {
     name: "Tall Thimbleweed",
@@ -429,6 +483,7 @@ export default [
     height: "Short",
     sun: ["Partial sun"],
     soiltype: ["Dry"],
+    photo: "tallthimbleweed",
   },
   {
     name: "Sky Blue Aster",
@@ -437,6 +492,7 @@ export default [
     height: "Medium",
     sun: ["Partial sun"],
     soiltype: ["Dry"],
+    photo: "skyblueaster",
   },
   //Full shade, Wet soil
   {
@@ -446,6 +502,7 @@ export default [
     height: "Short",
     sun: ["Full shade"],
     soiltype: ["Wet", "Medium"],
+    photo: "virginiabluebells",
   },
   {
     name: "Hairy Wood Mint",
@@ -454,6 +511,7 @@ export default [
     height: "Short",
     sun: ["Full shade"],
     soiltype: ["Wet", "Medium"],
+    photo: "hairywoodmint",
   },
   {
     name: "Sweet Joe Pye Weed",
@@ -462,6 +520,7 @@ export default [
     height: "Tall",
     sun: ["Full shade"],
     soiltype: ["Wet", "Medium", "Dry"],
+    photo: "sweetjoepyeweed",
   },
   {
     name: "Wingstem",
@@ -470,6 +529,7 @@ export default [
     height: "Tall",
     sun: ["Full shade"],
     soiltype: ["Wet", "Medium"],
+    photo: "wingstem",
   },
   {
     name: "Poke Milkweed",
@@ -478,6 +538,7 @@ export default [
     height: "Medium",
     sun: ["Full shade"],
     soiltype: ["Wet", "Medium", "Dry"],
+    photo: "pokemilkweed",
   },
   {
     name: "Wild Golden Glow",
@@ -486,6 +547,7 @@ export default [
     height: "Tall",
     sun: ["Full shade"],
     soiltype: ["Wet", "Medium"],
+    photo: "wildgoldenglow",
   },
   //Full shade, medium soil
   {
@@ -495,6 +557,7 @@ export default [
     height: "Medium",
     sun: ["Full shade"],
     soiltype: ["Medium", "Dry"],
+    photo: "hairybeardtongue",
   },
   //Full shade, dry soil
   {
@@ -504,5 +567,6 @@ export default [
     height: "Short",
     sun: ["Full shade"],
     soiltype: ["Dry", "Medium", "Wet"],
+    photo: "jacobsladder",
   },
 ];
