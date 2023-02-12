@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import MediaQuery from "react-responsive";
+import "../homePage.css";
 import pink from "./images/pink.png";
 import yellowstripes from "./images/yellowstripes.png";
 import darkblue from "./images/darkblue.png";
@@ -23,13 +24,11 @@ function HomePage() {
         <div className="container">
           <MediaQuery minWidth={800}>
             <div className="heading-desktop">
-              <h1>Grow Native Nebraska</h1>
               <h2>Support your local environment. </h2>
             </div>
           </MediaQuery>
           <MediaQuery maxWidth={799}>
             <div className="heading-mobile">
-              <h1>Grow Native Nebraska</h1>
               <h2>Support your local environment. </h2>
             </div>
           </MediaQuery>

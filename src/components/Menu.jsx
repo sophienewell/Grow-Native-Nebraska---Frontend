@@ -19,34 +19,25 @@ function Menu() {
 
   return (
     <>
-      <nav className="flex-container bg-green padding-1 font-karla text-white">
-        <FontAwesomeIcon icon={faSeedling} size="xl" />
-        <div>
-          <NavLink className="center link padding-1 text-lg" to="home">
+      <nav className="padding-1 font-karla flex-column">
+        {/* <FontAwesomeIcon icon={faSeedling} size="xl" /> */}
+        <div className="center">
+          <NavLink className="headline" to="home">
             Grow Native Nebraska
           </NavLink>
         </div>
-        <div className="r-align dropdown">
-          <div
-            id="drop-button"
-            className="drop-button"
-            onClick={toggleDropdownOpen}
-          >
-            <FontAwesomeIcon icon={faBars} size="2xl" />
-          </div>
+        <div className="flex-container center menu-line">
+          <NavLink className="center navlink padding-1" to="home">
+            Home
+          </NavLink>
+          <NavLink className="center navlink padding-1" to="search">
+            Search native plants
+          </NavLink>
+          <NavLink className="center navlink padding-1" to="mailinglist">
+            Mailing List
+          </NavLink>
         </div>
       </nav>
-      <div className={"drop-content " + (dropdownOpen ? "show" : "hide")}>
-        <NavLink className="center link-dropdown padding-1" to="home">
-          Home
-        </NavLink>
-        <NavLink className="center link-dropdown padding-1" to="search">
-          Search native plants
-        </NavLink>
-        <NavLink className="center link-dropdown padding-1" to="mailinglist">
-          Mailing List
-        </NavLink>
-      </div>
     </>
   );
 }
