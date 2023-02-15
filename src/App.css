@@ -7,6 +7,9 @@
   --green: #489132;
   --yellow: #e0ca3c;
 }
+.text-gray {
+  color: darkslategray;
+}
 
 .headline {
   font-size: 2.5rem;
@@ -41,6 +44,15 @@
 .r-align {
   margin-left: auto;
   margin-right: 0px;
+}
+
+.info {
+  width: 80%;
+  margin: auto;
+  line-height: 1.5;
+}
+.info::first-letter {
+  font-size: 2.5rem;
 }
 
 .bg-green {
@@ -126,13 +138,6 @@
 
 .min-100vh {
   min-height: 100vh;
-}
-
-.text-box {
-  background-color: rgb(236, 236, 231);
-  box-shadow: 1px 1px 7px rgb(78, 78, 75);
-  width: 80%;
-  margin: auto;
 }
 
 .flower-photo {
