@@ -10,7 +10,6 @@
 .text-gray {
   color: darkslategray;
 }
-
 .headline {
   font-size: 2.5rem;
   text-decoration: none;
@@ -27,43 +26,27 @@
   text-decoration: none;
   display: block;
 }
-
 .navlink:hover {
   font-weight: bold;
 }
 .mail-container {
-  width: 50%;
   border: 4px solid white;
   outline: 4px solid var(--violet);
   background-color: var(--offwhite);
   margin: 2rem auto;
+  width: 75%;
 }
-
-.line-height {
-  line-height: 1.7rem;
-}
-
 .center {
   text-align: center;
   justify-content: center;
 }
-
-.r-align {
-  margin-left: auto;
-  margin-right: 0px;
-}
-
 .info {
-  width: 80%;
+  width: 85%;
   margin: auto;
   line-height: 1.5;
 }
 .info::first-letter {
   font-size: 2.5rem;
-}
-
-.bg-green {
-  background: var(--green);
 }
 .bg-violet {
   background-color: rgb(236, 236, 231);
@@ -71,41 +54,21 @@
 .bg-blue {
   background-color: var(--blue);
 }
-
 .shadow {
   box-shadow: 2px 2px 5px var(--blue);
 }
-
 .font-karla {
   font-family: Karla;
-}
-.font-questrial {
-  font-family: Questrial;
-}
-.font-josefin {
-  font-family: "Josefin Sans", sans-serif;
-}
-.font-josefinitalic {
-  font-family: JosefinSansItalic;
-}
-.font-cabin {
-  font-family: "Cabin Sketch", cursive;
-}
-.font-cuprum {
-  font-family: "Cuprum", sans-serif;
 }
 .text-white {
   color: white;
 }
-
 .margin-10 {
   margin: 10px;
 }
-
 .padding-1 {
   padding: 0.7rem;
 }
-
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -114,23 +77,18 @@
   display: flex;
   flex-direction: column;
 }
-
 .align-stretch {
   align-items: stretch;
 }
-
 .flex-wrap {
   flex-wrap: wrap;
 }
-
 .flex-item-small {
   flex: 1 1 20%;
 }
-
 .flex-item-large {
   flex: 1 1 80%;
 }
-
 .flex-item-box {
   flex: 0 1 10rem;
   height: 23rem;
@@ -142,15 +100,12 @@
     flex-wrap: wrap;
   }
 }
-
 .min-100vh {
   min-height: 100vh;
 }
-
 .flower-photo {
   border-radius: 50%;
 }
-
 .info-box {
   text-align: left;
   padding-top: 10px;
@@ -179,7 +134,7 @@ button:hover {
 
 input {
   height: 1.5rem;
-  min-width: 20rem;
+  min-width: 10rem;
 }
 
 img {

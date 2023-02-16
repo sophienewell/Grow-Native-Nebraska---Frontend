@@ -12,10 +12,7 @@ function PlantSearchPage() {
 
   return (
     <div className="site min-100vh center font-karla flex-container align-stretch">
-      <div
-        className="flex-item-small bg-blue padding-1 text-white"
-        style={{ borderTopRightRadius: "1rem" }}
-      >
+      <div className="flex-item-small bg-blue padding-1 text-white">
         <h4>
           Use the filters to find native plants that are suitable for your
           garden

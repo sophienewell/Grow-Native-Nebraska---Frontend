@@ -61,7 +61,7 @@ function MailingListPage() {
 
   return (
     <div className="mail-container">
-      <form className="center min-100vh padding-1 font-karla text-gray">
+      <form className="center padding-1 font-karla text-gray">
         <img src={goldfinch} alt="goldfinch" />
         <h2>WANT MORE INFO?</h2>
         <div className="padding-1">

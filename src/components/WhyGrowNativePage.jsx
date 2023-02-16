@@ -1,6 +1,5 @@
 import React from "react";
 import milkweed from "./images/milkweed2.png";
-import yellowstripes from "./images/yellowstripes.png";
 
 function WhyGrowNativePage() {
   return (
@@ -11,7 +10,7 @@ function WhyGrowNativePage() {
       >
         Why Grow Native?
       </h1>
-      <div style={{ width: "70%", margin: "auto", position: "relative" }}>
+      <div style={{ width: "75%", margin: "auto", position: "relative" }}>
         <img src={milkweed} alt="Butterfly on milkweed flower" />
 
         <div className="text-gray padding-20 font-karla info">
