@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Menu() {
   return (
     <>
-      <nav className="padding-1 font-karla flex-column">
+      <nav className="padding-1 flex-column">
         <div className="center">
           <NavLink className="headline" to="home">
             GROW NATIVE NEBRASKA

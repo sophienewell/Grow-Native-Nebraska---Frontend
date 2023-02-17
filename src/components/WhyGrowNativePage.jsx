@@ -4,16 +4,13 @@ import milkweed from "./images/milkweed2.png";
 function WhyGrowNativePage() {
   return (
     <>
-      <h1
-        className="font-karla center text-gray"
-        style={{ fontSize: "2.5rem" }}
-      >
+      <h1 className="center text-gray" style={{ fontSize: "2.5rem" }}>
         Why Grow Native?
       </h1>
       <div style={{ width: "75%", margin: "auto", position: "relative" }}>
         <img src={milkweed} alt="Butterfly on milkweed flower" />
 
-        <div className="text-gray padding-20 font-karla info">
+        <div className="text-gray padding-20  info">
           <p>
             <b>
               Native plants are those that occur naturally in a region in which

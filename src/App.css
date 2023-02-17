@@ -7,6 +7,11 @@
   --green: #489132;
   --yellow: #e0ca3c;
 }
+
+* {
+  font-family: Karla;
+}
+
 .text-gray {
   color: darkslategray;
 }
@@ -57,9 +62,6 @@
 .shadow {
   box-shadow: 2px 2px 5px var(--blue);
 }
-.font-karla {
-  font-family: Karla;
-}
 .text-white {
   color: white;
 }
@@ -85,6 +87,11 @@
 }
 .flex-item-small {
   flex: 1 1 20%;
+}
+.flex-item-med {
+  flex: 1 1 50%;
+  min-width: 250px;
+  align-items: center;
 }
 .flex-item-large {
   flex: 1 1 80%;

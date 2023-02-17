@@ -60,46 +60,49 @@ function MailingListPage() {
   });
 
   return (
-    <div className="mail-container">
-      <form className="center padding-1 font-karla text-gray">
-        <img src={goldfinch} alt="goldfinch" />
+    <div className="mail-container flex-container">
+      <div className="flex-item-med flex-container">
+        <img src={goldfinch} alt="goldfinch" className="center" />
+      </div>
+      <div className="flex-item-med center">
         <h2>WANT MORE INFO?</h2>
-        <div className="padding-1">
-          <label htmlFor="email">
-            <h4>Enter your email here to sign up for our mailing list</h4>
-          </label>
-        </div>
+        <form className="center padding-1 text-gray">
+          <div>
+            <label htmlFor="email">
+              <p>Enter your email here to sign up for our mailing list</p>
+            </label>
+          </div>
+          <input
+            id="email"
+            type="text"
+            ref={emailInput}
+            placeholder="someone@example.com"
+          />
+          <br />
+          <br />
+          <button onClick={handleSignup}>Sign up</button>
+          <h4>{err}</h4>
+          <h4>{msg}</h4>
 
-        <input
-          id="email"
-          type="text"
-          ref={emailInput}
-          placeholder="someone@example.com"
-        />
-        <br />
-        <br />
-        <button onClick={handleSignup}>Sign up</button>
-        <h4>{err}</h4>
-        <h4>{msg}</h4>
+          <div>
+            <label htmlFor="unsubscribe">
+              <p>To unsubscribe from the mailing list enter your email here</p>
+            </label>
+          </div>
 
-        <div className="padding-1">
-          <label htmlFor="unsubscribe">
-            <h4>To unsubscribe from the mailing list enter your email here</h4>
-          </label>
-        </div>
-
-        <input
-          id="unsubscribe"
-          type="text"
-          ref={unsubscribeInput}
-          placeholder="someone@example.com"
-        />
-        <br />
-        <br />
-        <button onClick={handleUnsubscribe}>Unsubscribe</button>
-        <h4>{unsubErr}</h4>
-        <h4>{unsubMsg}</h4>
-      </form>
+          <input
+            id="unsubscribe"
+            type="text"
+            ref={unsubscribeInput}
+            placeholder="someone@example.com"
+          />
+          <br />
+          <br />
+          <button onClick={handleUnsubscribe}>Unsubscribe</button>
+          <h4>{unsubErr}</h4>
+          <h4>{unsubMsg}</h4>
+        </form>
+      </div>
     </div>
   );
 }

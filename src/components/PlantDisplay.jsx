@@ -186,7 +186,7 @@ function PlantDisplay({ plant }) {
   };
 
   return (
-    <div className="center padding-20 margin-10 bg-violet flex-item-box font-karla shadow">
+    <div className="center padding-20 margin-10 bg-violet flex-item-box shadow">
       <h3>{plant.name}</h3>
       <div className="">
         <img src={photos[plant.photo]} alt="photo" className="flower-photo" />
